@@ -69,14 +69,14 @@
 #+end_src
 ** Org agenda file directories
 #+begin_src emacs-lisp
-  (setq org-agenda-files '("/home/durbar/Sync/my_multiverse/notes/org/org_agenda"))
+  (setq org-agenda-files '("/home/durbar/Sync/my_multiverse/notes/org/agenda"))
 #+end_src
 ** Org capture template
 #+begin_src emacs-lisp
   (setq org-capture-templates
-        '(("t" "Todo" entry (file+headline "~/Sync/my_multiverse/notes/org/org_agenda/my-life.org" "Tasks")
+        '(("t" "Todo" entry (file+headline "~/Sync/my_multiverse/notes/org/agenda/my-life.org" "Tasks")
            "* TODO %?\n  %i\n  %a")
-          ("j" "Journal" entry (file+datetree "~/Sync/my_multiverse/notes/org/daily_log/journal.org")
+          ("j" "Journal" entry (file+datetree "~/Sync/my_multiverse/notes/org/journal/daily-journal.org")
            "* %?\nEntered on %U\n  %i\n  %a")))
 #+end_src
 ** org inline image size
