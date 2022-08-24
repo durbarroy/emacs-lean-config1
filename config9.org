@@ -444,7 +444,7 @@
    (interactive "r")
    (set-text-properties
     beg end
-    '(font-lock-face (:background "Yellow")
+    '(font-lock-face (:background "yellow")
                      highlighted t
                      help-echo "highlighted")))
 
@@ -460,7 +460,7 @@
    (interactive "r")
    (set-text-properties
     beg end
-    '(font-lock-face (:background "deep sky blue")
+    '(font-lock-face (:background "light blue")
                      highlighted t
                      help-echo "highlighted")))
 
@@ -476,7 +476,7 @@
    (interactive "r")
    (set-text-properties
     beg end
-    '(font-lock-face (:background "green")
+    '(font-lock-face (:background "light green")
                      highlighted t
                      help-echo "highlighted")))
 
@@ -494,11 +494,11 @@
    (interactive "r")
    (set-text-properties
     beg end
-    '(font-lock-face (:background "red")
+    '(font-lock-face (:background "light pink")
                      highlighted t
                      help-echo "highlighted")))
 
-  (global-set-key (kbd "s-r") 'highlight-region-red)
+  (global-set-key (kbd "s-d") 'highlight-region-red)
 #+end_src
 
 
