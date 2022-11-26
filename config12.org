@@ -221,8 +221,8 @@
 
 * ob-ipython
 #+begin_src emacs-lisp
-  (use-package ob-ipython
-    :ensure t)
+;;  (use-package ob-ipython
+;;    :ensure t)
 #+end_src
 
 * python-interaction
