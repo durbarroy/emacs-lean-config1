@@ -900,4 +900,9 @@
     :ensure t
     :after deft
     :config (zetteldeft-set-classic-keybindings))
+    
+  (setq deft-file-naming-rules
+      '((noslash . "-")
+        (nospace . "-")
+        (case-fn . downcase)))  
 #+end_src
