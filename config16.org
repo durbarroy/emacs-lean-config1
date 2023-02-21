@@ -2,12 +2,12 @@
 
 ** Background color
 #+begin_src emacs-lisp
-  ;;(set-background-color "honeydew")
+  (set-background-color "honeydew")
 #+end_src
 
 ** Highlight color
 #+begin_src emacs-lisp
-  ;;(set-face-attribute 'region nil :background "pale green" :foreground "black")
+  (set-face-attribute 'region nil :background "pale green" :foreground "black")
 #+end_src
 
 * Changing default terminal and adding keybindings
@@ -53,6 +53,10 @@
   (recentf-mode 1)
 #+end_src
 
+** Set all variables and aliases smae as the default bash shell
+#+begin_src emacs-lisp
+  (setq shell-command-switch "-ic")
+#+end_src
 * Org
 ** emacs-lisp org-header footer
 #+begin_src emacs-lisp
